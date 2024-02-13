@@ -1,0 +1,34 @@
+/* #skip {
+    display: none;
+} */
+#skip:focus {
+    display:block;
+}
+
+#link{
+    color: rgb(19, 129, 32);
+    font-style: bold;
+    font-weight: 600;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    border: 2px solid black;
+    width: 70%;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+ }
+
+.text {
+    display: grid;
+    grid-template-columns: 500px 500px 500px 500px;
+    border: 2px solid black;
+    width: 100%;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
